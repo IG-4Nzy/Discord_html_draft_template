@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <title>Diskord</title>
+
+
+
+    <style>
+        .shadow-border {
+            box-shadow: 0px 1px 1px 0px #1a1a1a;
+        }
+        .scrollbar::-webkit-scrollbar {
+                width: 6px;
+            }
+    
+            .scrollbar::-webkit-scrollbar-thumb {
+                background-color: #363636;
+            }
+    
+            .scrollbar::-webkit-scrollbar-track {
+                background-color: #2b2b2b;
+            }
+    
+        #plus {
+            color: rgb(185, 183, 183);
+        }
+    
+        #plus:hover {
+            color: rgb(212, 209, 209);
+        }
+    </style>
+
+
+
+
+</head>
+
+<body class="">
+    <div class="wrapper  h-screen bg-gray-600 flex overflow-hidden">
+
+        <div class="bg-gray-900 w-20   ">
+            <div class="flex justify-center pt-4">
+                <a class="rounded-full bg-indigo-600 w-12 h-12 block justify-center place-items-center flex hover:rounded-2xl "
+                    href="#"><i class='fab fa-discord fa-2xl'></i></a>
+            </div>
+            <div class="h-0.5 bg-gray-600 w-8 flex ml-6 mt-2 "></div>
+
+            <div class="flex justify-center p-4">
+                <ul class="space-y-3">
+
+                    <li>
+                        <a class="" href="#"><img class="rounded-full  hover:rounded-2xl " src="images/ironman.jpg"></a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#"><img class="rounded-full  hover:rounded-2xl " src="images/ironman.jpg"></a>
+                    </li>
+
+                    <li>
+                        <a class="rounded-full hover:rounded-2xl bg-gray-600 w-12 h-12 block justify-center place-items-center flex "
+                            href="#"><i class='fab fa-plus fa-2xl'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="bg-gray-800 w-60 flex flex-col">
+            <div class="flex justify-center place-items-center p-2 h-12 shadow-border">
+                <input class="bg-gray-900 w-56 p-1 rounded-sm text-center" type="text" name="find"
+                    placeholder="find or search a conversation">
+            </div>
+            <div class="flex flex-col space-y-3  ">
+                <div class="p-2 hover:bg-gray-500 h-10">
+                    <button><i class="fa-solid fa-user w-4" style=color:rgb(185,183,183);></i><label
+                            class="p-5 text-gray-400">Friends</label></button>
+                </div>
+                <div class="p-2 hover:bg-gray-500 h-10">
+                    <button><i class="fa-solid fa-bolt w-4" style=color:rgb(185,183,183);></i><label
+                            class="p-5 text-gray-400 ">Nitro</label></button>
+                </div>
+            </div>
+
+            <div class="justify-between flex items-center p-5">
+                <a class="text-xs text-gray-400 font-bold hover:text-gray-300 " href="#">DIRECT MESSAGES</a>
+                <a href="#"><span id="plus"><i class='fa-solid fa-plus'></span></i></a>
+            </div>
+            <div class="flex-1 overflow-y-scroll scrollbar">
+                <div class="space-y-3 p-3">
+                    <a class="flex items-center hover:bg-gray-500" href="#">
+                        <img class="w-10 rounded-full " src="images/ironman.jpg" />
+                        <label class="p-3 text-gray-400">Username</label>
+                    </a>
+                </div>
+            </div>
+
+            <div class=" h-12">
+                <div class="bg-gray-700 h-12 flex">
+                    <div class="flex content-center">
+                        <a class="flex items-center pl-1" href="#">
+                            <img class="rounded-full w-9 h-9" src="images/ironman.jpg">
+                            <label class="p-3 text-gray-400">Username</label>
+                        </a>
+                    </div>
+
+                    <div class=" items-center flex  space-x-4 ml-2 ">
+                        <a href="#"><i class="fa-solid fa-microphone"style="color:gray;"></i></a>
+                        <a href="#"><i class="fa-solid fa-headphones"style="color:gray;"></i></a>
+                        <a href="#"><i class="fa-solid fa-gear"style="color:gray;"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="flex-1 h-full flex flex-col">
+            <div class="h-12 shadow-border flex flex-col justify-center">
+                <div class="flex justify-between">
+                    <div>
+                        <a  class="text-gray-300 font-semibold ml-2 p-1 rounded hover:bg-gray-500 " href="#"><i class="fa-solid fa-user-group pr-2 pl-2"></i><label>Friends</label></a>
+                        <i class="ml-1 border-l-2 border-gray-500" href="#"><label></label></i>
+                        <a class="ml-5 text-gray-300 font-semibold p-1 rounded hover:bg-gray-500" href="#"><label>Online</label></a>
+                        <a class="ml-5 text-gray-300 font-semibold p-1 rounded hover:bg-gray-500" href="#"><label>All</label></a>
+                        <a class="ml-5 text-gray-300 font-semibold p-1 rounded hover:bg-gray-500" href="#"><label>Pending</label></a>
+                        <a class="ml-5 text-gray-300 font-semibold p-1 rounded hover:bg-gray-500"  href="#"><label>Blocked</label></a>
+                        <a class="ml-5 text-gray-300 font-semibold bg-green-600 p-1 rounded" href="#"><label>Add Friend</label></a> 
+                    </div>
+                      
+                    <div class="flex space-x-5">
+                        <a class="ml-5 text-gray-300 font-semibold p-1 rounded " href="#"><i class="fa-solid fa-message"></i></a>
+                        <i class="ml-1 border-l-2 border-gray-500" href="#"><label></label></i>
+                        <a class="ml-5 text-gray-300 font-semibold p-1 rounded" href="#"><i class="fa-solid fa-inbox"></i></a>
+                        <a class="ml-5 text-gray-300 font-semibold p-1 rounded" href="#"><i class="fa-regular fa-circle-question"></i></a>
+                    </div>
+                </div>     
+            </div>
+
+            <div class="flex-1 flex  p-3 h-full border-r border-gray-500">
+                <div class="flex-1 flex flex-col">
+                    <div class="w-full flex items-center rounded bg-gray-900 px-2 py-1">
+                        <input class="w-full  bg-gray-900 text-gray-400 outline-none" type="text" name="sr" placeholder="search" >
+                        <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+                    </div>
+    
+                    <div class="border-b border-gray-500 my-3 pb-2  px-4">
+                        <p class="text-gray-300 font-semibold text-xs ">ONLINE-3</p>
+                    </div>
+    
+                    <div class="overflow-y-scroll scrollbar flex-1  px-4">
+                        <div class="border-b border-gray-500 pt-2">
+                            <div class="flex p-2 hover:bg-gray-500">
+                                <a class="flex items-center" href="#"><img class="rounded-full w-10" src="images/ironman.jpg"><label class="p-2 font-semibold text-gray-200">username</label></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex p-2 hover:bg-gray-500">
+                                <a class="flex items-center" href="#"><img class="rounded-full w-10" src="images/ironman.jpg"><label class="p-2 font-semibold text-gray-200">username</label></a>
+                            </div>
+                            <div class="border-b border-gray-500 pt-2"></div>
+                        </div>
+                        <div>
+                            <div class="flex p-2 hover:bg-gray-500">
+                                <a class="flex items-center" href="#"><img class="rounded-full w-10" src="images/ironman.jpg"><label class="p-2 font-semibold text-gray-200">username</label></a>
+                            </div>
+                            <div class="border-b border-gray-500 pt-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-96 ">
+                    fdgd
+                </div>
+            </div>
+
+            
+
+        </div>
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+    </div><!--container -->
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
